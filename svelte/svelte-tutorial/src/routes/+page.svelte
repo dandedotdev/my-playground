@@ -1,8 +1,7 @@
 <script lang="ts">
-	import src from '$lib/assets/HereAfter-logo-b.svg';
+	import Nested from '$lib/components/nested.svelte';
 
 	let name = 'dandelion';
-	let hereafterBrandName = 'HereAfter';
 </script>
 
 <div
@@ -14,20 +13,5 @@
 			{name}
 		</span>
 	</h1>
-	<figure>
-		<img {src} alt="{hereafterBrandName} logo (blue version)" />
-		<figcaption>
-			{hereafterBrandName} logo (blue version)
-		</figcaption>
-	</figure>
+	<Nested />
 </div>
-
-<!-- Style is defaulted to be scoped to the component -->
-<style>
-	figcaption {
-		color: #cce;
-		font-style: italic;
-		padding-top: 4px;
-		text-align: center;
-	}
-</style>
