@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+  let name = 'dandelion';
+</script>
+
+<h1 align="center">
+  Hello
+  <span class="text-indigo-500 dark:text-sky-500 uppercase">
+    {name}
+  </span>
+</h1>
