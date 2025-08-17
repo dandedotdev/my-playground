@@ -14,5 +14,20 @@
 			{name}
 		</span>
 	</h1>
-	<img {src} alt="{hereafterBrandName} logo (blue version)" />
+	<figure>
+		<img {src} alt="{hereafterBrandName} logo (blue version)" />
+		<figcaption>
+			{hereafterBrandName} logo (blue version)
+		</figcaption>
+	</figure>
 </div>
+
+<!-- Style is defaulted to be scoped to the component -->
+<style>
+	figcaption {
+		color: #cce;
+		font-style: italic;
+		padding-top: 4px;
+		text-align: center;
+	}
+</style>
