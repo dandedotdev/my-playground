@@ -1,5 +1,5 @@
 <script lang="ts">
-  import State from '$lib/components/reactivity/state.svelte';
+  import DeepState from '$lib/components/reactivity/deep-state.svelte';
 
   let name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <State />
+  <DeepState />
 </div>
