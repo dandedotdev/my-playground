@@ -1,5 +1,5 @@
 <script lang="ts">
-  import DerivedState from '$lib/components/reactivity/derived-state.svelte';
+  import InspectingState from '$lib/components/reactivity/inspecting-state.svelte';
 
   let name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <DerivedState />
+  <InspectingState />
 </div>
