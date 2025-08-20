@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Effects from '$lib/components/reactivity/effects.svelte';
+  import UniversalReactivity from '$lib/components/reactivity/universal-reactivity.svelte';
 
   let name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <Effects />
+  <UniversalReactivity />
 </div>
