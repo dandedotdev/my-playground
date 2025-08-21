@@ -1,5 +1,5 @@
 <script lang="ts">
-  import DeclaringProps from '$lib/components/props/declaring-props.svelte';
+  import DefaultValues from '$lib/components/props/default-values.svelte';
 
   let name = 'dandelion';
 </script>
@@ -18,5 +18,8 @@
       {name}
     </span>
   </h1>
-  <DeclaringProps answer="38" />
+  <div class="rounded-lg border border-gray-300 p-4">
+    <DefaultValues />
+    <DefaultValues name="Heather" />
+  </div>
 </div>
