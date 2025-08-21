@@ -1,5 +1,5 @@
 <script lang="ts">
-  import UniversalReactivity from '$lib/components/reactivity/universal-reactivity.svelte';
+  import DeclaringProps from '$lib/components/props/declaring-props.svelte';
 
   let name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <UniversalReactivity />
+  <DeclaringProps answer="38" />
 </div>
