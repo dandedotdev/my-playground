@@ -1,7 +1,19 @@
 <script lang="ts">
-  import DefaultValues from '$lib/components/props/default-values.svelte';
+  import SpreadProps from '$lib/components/props/spread-props.svelte';
 
-  let name = 'dandelion';
+  const name = 'dandelion';
+
+  const propsWayne = {
+    name: 'Wayne',
+    age: 90,
+    description: 'I am a software engineer'
+  };
+
+  const propsHeather = {
+    name: 'Heather',
+    age: 'unknown',
+    description: 'I am a UX designer'
+  };
 </script>
 
 <svelte:head>
@@ -18,8 +30,6 @@
       {name}
     </span>
   </h1>
-  <div class="rounded-lg border border-gray-300 p-4">
-    <DefaultValues />
-    <DefaultValues name="Heather" />
-  </div>
+  <SpreadProps {...propsWayne} />
+  <SpreadProps {...propsHeather} />
 </div>
