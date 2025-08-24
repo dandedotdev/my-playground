@@ -1,5 +1,5 @@
 <script lang="ts">
-  import EachBlocks from '$lib/components/logic/each-blocks.svelte';
+  import KeyedEachBlocks from '$lib/components/logic/keyed-each-blocks.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <EachBlocks />
+  <KeyedEachBlocks />
 </div>
