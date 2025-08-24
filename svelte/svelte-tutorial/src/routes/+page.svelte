@@ -1,5 +1,5 @@
 <script lang="ts">
-  import IfBlocks from '$lib/components/logic/if-blocks.svelte';
+  import EachBlocks from '$lib/components/logic/each-blocks.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <IfBlocks />
+  <EachBlocks />
 </div>
