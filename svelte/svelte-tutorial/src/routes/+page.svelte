@@ -1,19 +1,7 @@
 <script lang="ts">
-  import SpreadProps from '$lib/components/props/spread-props.svelte';
+  import IfBlocks from '$lib/components/logic/if-blocks.svelte';
 
   const name = 'dandelion';
-
-  const propsWayne = {
-    name: 'Wayne',
-    age: 90,
-    description: 'I am a software engineer'
-  };
-
-  const propsHeather = {
-    name: 'Heather',
-    age: 'unknown',
-    description: 'I am a UX designer'
-  };
 </script>
 
 <svelte:head>
@@ -30,6 +18,5 @@
       {name}
     </span>
   </h1>
-  <SpreadProps {...propsWayne} />
-  <SpreadProps {...propsHeather} />
+  <IfBlocks />
 </div>
