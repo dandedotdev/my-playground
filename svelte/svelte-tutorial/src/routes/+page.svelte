@@ -1,5 +1,5 @@
 <script lang="ts">
-  import InlineHandlers from '$lib/components/events/inline-handlers.svelte';
+  import Capturing from '$lib/components/events/capturing.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <InlineHandlers />
+  <Capturing />
 </div>
