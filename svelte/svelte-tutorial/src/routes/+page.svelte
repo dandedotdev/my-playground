@@ -1,7 +1,9 @@
 <script lang="ts">
-  import Capturing from '$lib/components/events/capturing.svelte';
+  import ComponentEvents from '$lib/components/events/component-events.svelte';
 
   const name = 'dandelion';
+
+  let value = $state(0);
 </script>
 
 <svelte:head>
@@ -18,5 +20,6 @@
       {name}
     </span>
   </h1>
-  <Capturing />
+  <ComponentEvents increment={() => (value += 1)} decrement={() => (value -= 1)} />
+  <p>Value: {value}</p>
 </div>
