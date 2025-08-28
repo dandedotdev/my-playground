@@ -1,5 +1,5 @@
 <script lang="ts">
-  import DomEvents from '$lib/components/events/dom-events.svelte';
+  import InlineHandlers from '$lib/components/events/inline-handlers.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <DomEvents />
+  <InlineHandlers />
 </div>
