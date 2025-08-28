@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ComponentEvents from '$lib/components/events/component-events.svelte';
+  import SpreadingEvents from '$lib/components/events/spreading-events.svelte';
 
   const name = 'dandelion';
 
@@ -20,6 +20,5 @@
       {name}
     </span>
   </h1>
-  <ComponentEvents increment={() => (value += 1)} decrement={() => (value -= 1)} />
-  <p>Value: {value}</p>
+  <SpreadingEvents />
 </div>
