@@ -1,5 +1,5 @@
 <script lang="ts">
-  import AwaitBlocks from '$lib/components/logic/await-blocks.svelte';
+  import DomEvents from '$lib/components/events/dom-events.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <AwaitBlocks />
+  <DomEvents />
 </div>
