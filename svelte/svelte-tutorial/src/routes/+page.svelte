@@ -1,9 +1,7 @@
 <script lang="ts">
-  import SpreadingEvents from '$lib/components/events/spreading-events.svelte';
+  import TextInputs from '$lib/components/bindings/text-inputs.svelte';
 
   const name = 'dandelion';
-
-  let value = $state(0);
 </script>
 
 <svelte:head>
@@ -20,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <SpreadingEvents />
+  <TextInputs />
 </div>
