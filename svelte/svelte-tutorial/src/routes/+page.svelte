@@ -1,5 +1,5 @@
 <script lang="ts">
-  import TextInputs from '$lib/components/bindings/text-inputs.svelte';
+  import NumericInputs from '$lib/components/bindings/numeric-inputs.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <TextInputs />
+  <NumericInputs />
 </div>
