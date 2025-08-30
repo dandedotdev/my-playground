@@ -1,5 +1,5 @@
 <script lang="ts">
-  import NumericInputs from '$lib/components/bindings/numeric-inputs.svelte';
+  import CheckboxInputs from '$lib/components/bindings/checkbox-inputs.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <NumericInputs />
+  <CheckboxInputs />
 </div>
