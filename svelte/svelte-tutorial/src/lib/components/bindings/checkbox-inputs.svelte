@@ -13,6 +13,9 @@
   <p>You must opt in to continue. If you're not paying, you're the product.</p>
 {/if}
 
-<button class="rounded-md bg-indigo-500 px-4 py-2 text-white dark:bg-sky-500" disabled={!checked}>
+<button
+  class="rounded-md bg-indigo-500 px-4 py-2 text-white disabled:opacity-50 dark:bg-sky-500"
+  disabled={!checked}
+>
   Subscribe
 </button>
