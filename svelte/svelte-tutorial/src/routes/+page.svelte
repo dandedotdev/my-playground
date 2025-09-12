@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SelectBindings from '$lib/components/bindings/select-bindings.svelte';
+  import GroupBindings from '$lib/components/bindings/group-bindings.svelte';
 
   const name = 'dandelion';
 </script>
@@ -14,9 +14,9 @@
 >
   <h1>
     Hello
-    <span class="text-indigo-500 uppercase dark:text-sky-500">
+    <span class="uppercase text-indigo-500 dark:text-sky-500">
       {name}
     </span>
   </h1>
-  <SelectBindings />
+  <GroupBindings />
 </div>
