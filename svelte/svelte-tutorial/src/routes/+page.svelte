@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SelectMultiple from '$lib/components/bindings/select-multiple.svelte';
+  import TextareaInputs from '$lib/components/bindings/textarea-inputs.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <SelectMultiple />
+  <TextareaInputs />
 </div>
