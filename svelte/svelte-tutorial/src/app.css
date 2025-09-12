@@ -6,3 +6,13 @@
     cursor: pointer;
   }
 }
+
+@utility scrollbar-none {
+	/* Firefox */
+	scrollbar-width: none;
+
+	/* Chrome/Safari/Webkit */
+	&::-webkit-scrollbar {
+		@apply size-0 bg-transparent;
+	}
+}
