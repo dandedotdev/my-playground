@@ -1,5 +1,5 @@
 <script lang="ts">
-  import TextareaInputs from '$lib/components/bindings/textarea-inputs.svelte';
+  import TheClassAttribute from '$lib/components/classes-and-styles/the-class-attribute.svelte';
 
   const name = 'dandelion';
 </script>
@@ -18,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <TextareaInputs />
+  <TheClassAttribute />
 </div>
