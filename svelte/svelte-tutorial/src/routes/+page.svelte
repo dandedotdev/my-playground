@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ComponentStyles from '$lib/components/classes-and-styles/component-styles.svelte';
+  import TheUseDirective from '$lib/components/actions/the-use-directive.svelte';
 
   const name = 'dandelion';
 </script>
@@ -9,14 +9,12 @@
   <title>Svelte Tutorial</title>
 </svelte:head>
 
-<div
-  class="flex h-dvh flex-col items-center justify-center gap-4 bg-amber-100 dark:bg-slate-900 dark:text-white"
->
-  <h1>
+<div class="flex h-dvh flex-col items-center justify-center gap-4 bg-slate-800 text-white">
+  <h1 class="opacity-50">
     Hello
-    <span class="text-indigo-500 uppercase dark:text-sky-500">
+    <span class="user-select-none uppercase text-sky-500">
       {name}
     </span>
   </h1>
-  <ComponentStyles />
+  <TheUseDirective />
 </div>
