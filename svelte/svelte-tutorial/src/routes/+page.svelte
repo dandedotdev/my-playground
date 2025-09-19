@@ -1,5 +1,6 @@
 <script lang="ts">
-  import TheStyleDirective from '$lib/components/classes-and-styles/the-style-directive.svelte';
+  import ComponentStyles from '$lib/components/classes-and-styles/component-styles.svelte';
+
   const name = 'dandelion';
 </script>
 
@@ -17,5 +18,5 @@
       {name}
     </span>
   </h1>
-  <TheStyleDirective />
+  <ComponentStyles />
 </div>
